@@ -1,12 +1,30 @@
 # 🤖 AI Resume Analyzer
 
-An AI-powered Resume Analyzer built using **Python** and **Streamlit** that evaluates a resume against a job description, calculates an ATS (Applicant Tracking System) score, identifies missing skills, and provides personalized suggestions to improve the resume.
+An AI-powered Resume Analyzer built using **Python** and **Streamlit** that evaluates a resume against a job description, calculates an **ATS (Applicant Tracking System) Score**, identifies missing skills, and provides personalized suggestions to improve resume quality.
+
+---
+
+## 🔗 Project Links
+
+🐙 **GitHub Repository**
+
+https://github.com/Jayanthi740/AI_Resume_Analyzer
+
+📥 **Clone Repository**
+
+```bash
+git clone https://github.com/Jayanthi740/AI_Resume_Analyzer.git
+```
+
+🌐 **Live Demo**
+
+Coming Soon...
 
 ---
 
 ## 🚀 Overview
 
-The **AI Resume Analyzer** helps job seekers understand how well their resume matches a specific job description. It extracts technical skills from both the resume and the job description, compares them, calculates an ATS score, highlights missing skills, and provides actionable suggestions to improve resume quality.
+The **AI Resume Analyzer** helps job seekers evaluate how well their resume matches a job description. It extracts technical skills from both the resume and the job description, compares them, calculates an ATS score, highlights missing skills, and provides recommendations to improve the resume for better job opportunities.
 
 ---
 
@@ -16,11 +34,11 @@ The **AI Resume Analyzer** helps job seekers understand how well their resume ma
 - 📝 Paste Job Description
 - 🔍 Automatic Resume Skill Extraction
 - 💼 Automatic Job Skill Extraction
-- 📊 ATS Score Calculation
+- 📊 Overall ATS Score Calculation
 - 📈 Detailed Score Breakdown
 - ❌ Missing Skills Detection
 - 💡 Resume Improvement Suggestions
-- 🎨 Interactive Web Interface using Streamlit
+- 🎨 Interactive Streamlit Web Interface
 
 ---
 
@@ -30,9 +48,9 @@ The **AI Resume Analyzer** helps job seekers understand how well their resume ma
 |------------|---------|
 | Python | Programming Language |
 | Streamlit | Web Application |
-| PyPDF2 | PDF Text Extraction |
+| PyPDF2 | PDF Parsing |
 | Git | Version Control |
-| GitHub | Source Code Hosting |
+| GitHub | Repository Hosting |
 
 ---
 
@@ -58,53 +76,57 @@ AI_Resume_Analyzer/
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Jayanthi740/AI_Resume_Analyzer.git
 ```
 
-### 2. Navigate to the Project Folder
+### 2️⃣ Navigate to the Project Folder
 
 ```bash
 cd AI_Resume_Analyzer
 ```
 
-### 3. Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Run the Application
+### 4️⃣ Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-The application will automatically open in your browser.
+The application will automatically open in your browser at:
+
+```text
+http://localhost:8501
+```
 
 ---
 
 ## 📌 How to Use
 
 1. Launch the application.
-2. Upload your Resume (PDF).
+2. Upload your Resume (PDF format).
 3. Paste the Job Description.
 4. Click **Analyze**.
 5. View:
    - Resume Skills
-   - Job Skills
-   - ATS Score
+   - Job Required Skills
+   - Overall ATS Score
    - Score Breakdown
    - Missing Skills
-   - Resume Suggestions
+   - Resume Improvement Suggestions
 
 ---
 
 ## 📊 Sample Output
 
-### Resume Skills
+### 📌 Resume Skills
 
 - Python
 - SQL
@@ -114,7 +136,7 @@ The application will automatically open in your browser.
 - Git
 - Machine Learning
 
-### Job Required Skills
+### 📌 Job Required Skills
 
 - Python
 - SQL
@@ -122,15 +144,23 @@ The application will automatically open in your browser.
 - AWS
 - Git
 
-### ATS Report
+### 📊 ATS Report
 
-- ✅ Overall ATS Score
-- ✅ Skills Score
-- ✅ Projects Score
-- ✅ Education Score
-- ✅ Experience Score
-- ✅ Missing Skills
-- ✅ Resume Suggestions
+- Overall ATS Score
+- Skills Score
+- Projects Score
+- Education Score
+- Experience Score
+
+### ❌ Missing Skills
+
+- Django
+- AWS
+
+### 💡 Suggestions
+
+- Improve your resume by adding Django skill.
+- Improve your resume by adding AWS skill.
 
 ---
 
@@ -138,22 +168,22 @@ The application will automatically open in your browser.
 
 ### 🏠 Home Page
 
-> Upload your Resume and paste the Job Description.
+Upload your resume and paste the job description.
 
-*Add `screenshots/home.png` here.*
+> Add a screenshot named **home.png** inside the `screenshots` folder.
 
 ### 📈 Analysis Result
 
 Displays:
 
 - Resume Skills
-- Job Skills
+- Job Required Skills
 - ATS Score
 - Score Breakdown
 - Missing Skills
 - Suggestions
 
-*Add `screenshots/result.png` here.*
+> Add a screenshot named **result.png** inside the `screenshots` folder.
 
 ---
 
@@ -165,7 +195,8 @@ Displays:
 - Download ATS Report as PDF
 - Resume Keyword Highlighting
 - Support for DOCX Files
-- Dashboard with Charts
+- Interactive Dashboard
+- Multi-Resume Comparison
 
 ---
 
@@ -177,8 +208,9 @@ Displays:
 
 💻 Python Full Stack Developer
 
-- 🐙 GitHub: https://github.com/Jayanthi740
-- 💼 LinkedIn: https://www.linkedin.com/in/gh-jayanthi-397b67337/
+🐙 GitHub: https://github.com/Jayanthi740
+
+💼 LinkedIn: https://www.linkedin.com/in/gh-jayanthi-397b67337/
 
 ---
 
@@ -186,17 +218,17 @@ Displays:
 
 Contributions are welcome!
 
-If you'd like to improve this project:
+If you would like to contribute:
 
-1. Fork the repository.
-2. Create a new branch.
+1. Fork this repository.
+2. Create a new feature branch.
 3. Commit your changes.
 4. Push your branch.
 5. Open a Pull Request.
 
 ---
 
-## ⭐ Show Your Support
+## ⭐ Support
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
@@ -205,3 +237,9 @@ If you found this project useful, please consider giving it a ⭐ on GitHub.
 ## 📄 License
 
 This project is developed for educational and learning purposes.
+
+---
+
+### 🙏 Thank You
+
+Thank you for visiting this repository. If you have any suggestions or feedback, feel free to open an issue or submit a pull request.
